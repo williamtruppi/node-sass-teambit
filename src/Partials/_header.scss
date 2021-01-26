@@ -1,7 +1,7 @@
 
 header{
-  margin: 40px 0;
-  height: 450px;
+  width: 85vw;
+  margin: 50px auto;
   background-image: url("/Esercizi/node-sass-teambit/dist/img/illustration-main.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -40,6 +40,10 @@ header{
           height: 30px;
           margin-right: 10px;
         }
+      }
+
+      span{
+        margin: 0 10px
       }
     }
   }
