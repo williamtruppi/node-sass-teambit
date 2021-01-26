@@ -55,9 +55,11 @@ main{
 
     .box_container{
       width: 100%;
+      margin-bottom: 20px;
 
       .card_img{
         width: 50%;
+        height: fit-content;
 
         img{
           width: 100%;
@@ -66,6 +68,7 @@ main{
 
       .card_info{
         width: 25%;
+        height: fit-content;
         color: $font_color;
         font-size: 1.3em;
         line-height: 2em;
@@ -76,9 +79,13 @@ main{
 
         img{
           margin-top: 20px;
-          height: 23%;
+          height: 230px;
         }
       }
+    }
+
+    .box_container.surveys{
+      justify-content: flex-end;
     }
   }
 }

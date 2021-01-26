@@ -133,15 +133,22 @@ main .second_section {
 }
 main .second_section .box_container {
   width: 100%;
+  margin-bottom: 20px;
 }
 main .second_section .box_container .card_img {
   width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 main .second_section .box_container .card_img img {
   width: 100%;
 }
 main .second_section .box_container .card_info {
   width: 25%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   color: #58402C;
   font-size: 1.3em;
   line-height: 2em;
@@ -151,5 +158,8 @@ main .second_section .box_container .card_info p {
 }
 main .second_section .box_container .card_info img {
   margin-top: 20px;
-  height: 23%;
+  height: 230px;
+}
+main .second_section .box_container.surveys {
+  justify-content: flex-end;
 }
