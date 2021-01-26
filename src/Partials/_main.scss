@@ -51,7 +51,7 @@ main{
   }
 
   .second_section{
-    padding: 50px 10px;
+    padding: 80px 10px;
 
     .box_container{
       width: 100%;
@@ -84,7 +84,7 @@ main{
       }
     }
 
-    .box_container.surveys{
+    .box_container.surveys, .box_container.praise{
       justify-content: flex-end;
     }
   }

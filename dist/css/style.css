@@ -129,7 +129,7 @@ main .first_section .traditional_people hr {
   margin: 60px 0;
 }
 main .second_section {
-  padding: 50px 10px;
+  padding: 80px 10px;
 }
 main .second_section .box_container {
   width: 100%;
@@ -160,6 +160,6 @@ main .second_section .box_container .card_info img {
   margin-top: 20px;
   height: 230px;
 }
-main .second_section .box_container.surveys {
+main .second_section .box_container.surveys, main .second_section .box_container.praise {
   justify-content: flex-end;
 }
