@@ -24,12 +24,12 @@ main{
             align-items: center;
             justify-content: center;
     
-            /* p{
-              width: 100%;
-            } */
+            p{
+              margin-top: 15px;
+            }
     
             img{
-              width: 200px;
+              /* width: 200px; */
               height: 150px;
             }
           }
@@ -48,5 +48,37 @@ main{
     }
 
     
+  }
+
+  .second_section{
+    padding: 50px 10px;
+
+    .box_container{
+      width: 100%;
+
+      .card_img{
+        width: 50%;
+
+        img{
+          width: 100%;
+        }
+      }
+
+      .card_info{
+        width: 25%;
+        color: $font_color;
+        font-size: 1.3em;
+        line-height: 2em;
+        
+        p{
+          margin: 90px 0 40px 0;
+        }
+
+        img{
+          margin-top: 20px;
+          height: 23%;
+        }
+      }
+    }
   }
 }
