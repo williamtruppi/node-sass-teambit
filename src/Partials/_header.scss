@@ -1,0 +1,46 @@
+
+header{
+  margin: 40px 0;
+  height: 450px;
+  background-image: url("/Esercizi/node-sass-teambit/dist/img/illustration-main.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .header_info {
+    width: 50%;
+
+    h1{
+      font-size: 3.5em;
+      line-height: 1.5em;
+      color: $font_color;
+    }
+
+    p{
+      width: 80%;
+      font-size: 1.4em;
+      line-height: 1.5em;
+      color: $font_color;
+    }
+
+    .header_signup{
+      margin-top: 40px;
+      align-items: center;
+
+      .btn_signup{
+        width: fit-content;
+        padding: 5px 7px;
+        border-radius: 5px;
+        background-color: $signup_color;
+        cursor: pointer;
+        align-items: center;
+        color: white;
+
+        img{
+          height: 30px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
