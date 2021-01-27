@@ -45,14 +45,13 @@ nav .navbar_right .btn {
   border: 2px solid blue;
   border-radius: 18%;
 }
+nav .navbar_right_hamburger {
+  display: none;
+}
 
 header {
   width: 85vw;
   margin: 50px auto;
-  background-image: url("../img/illustration-main.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 header .header_info {
   width: 50%;
@@ -89,6 +88,13 @@ header .header_info .header_signup .btn_signup img {
 }
 header .header_info .header_signup span {
   margin: 0 10px;
+}
+header .header_img {
+  width: 50%;
+}
+header .header_img img {
+  height: 350px;
+  float: right;
 }
 
 main .first_section {
@@ -165,10 +171,66 @@ main .second_section .box_container.surveys, main .second_section .box_container
 }
 main .third_section {
   color: #58402C;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  background-color: #FFE7D2;
 }
 main .third_section h1 {
   font-size: 3em;
   text-align: center;
   line-height: 1.5em;
+}
+main .third_section .user_experience {
+  margin-top: 2em;
+  width: 40%;
+  border: 2px solid #2C4792;
+  padding: 20px;
+  border-radius: 15px;
+}
+main .third_section .user_experience .user_img_box {
+  align-items: center;
+}
+main .third_section .user_experience .user_img_box img {
+  width: 50px;
+  margin: 15px 15px 0 0;
+}
+main .third_section .user_experience .user_img_box span:nth-child(1) {
+  color: #2C4792;
+}
+main .third_section .user_signup {
+  margin-top: 40px;
+  align-items: center;
+}
+main .third_section .user_signup .btn_signup {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: #2C4792;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+}
+main .third_section .user_signup .btn_signup img {
+  height: 30px;
+  margin-right: 10px;
+}
+main .third_section .user_signup span {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 998px) {
+  nav .navbar_right {
+    display: none;
+  }
+  nav .navbar_right_hamburger {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #58402C;
+    font-size: 25px;
+  }
 }

@@ -2,10 +2,6 @@
 header{
   width: 85vw;
   margin: 50px auto;
-  background-image: url("../img/illustration-main.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 
   .header_info {
     width: 50%;
@@ -45,6 +41,15 @@ header{
       span{
         margin: 0 10px
       }
+    }
+  }
+
+  .header_img{
+    width: 50%;
+
+    img{
+      height: 350px;
+      float: right;
     }
   }
 }
