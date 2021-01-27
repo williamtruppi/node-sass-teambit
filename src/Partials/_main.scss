@@ -88,4 +88,15 @@ main{
       justify-content: flex-end;
     }
   }
+
+  .third_section{
+    color: $font_color;
+    justify-content: center;
+
+    h1{
+      font-size: 3em;
+      text-align: center;
+      line-height: 1.5em;
+    }
+  }
 }
