@@ -1,6 +1,10 @@
-@media screen and (max-width: 998px) {
+@media all and (min-width: 551px) and (max-width: 998px) {
 
   nav{
+    min-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
     .navbar_right{
       display: none;
     }
@@ -13,6 +17,145 @@
       color: $font_color;
       font-size: 25px;
     }
+  }
+
+  header{
+    flex-wrap: wrap;
+    
+    .header_info, .header_img{
+      min-width: 100%;
+
+      p, h1, .header_signup{
+        text-align: center;
+        justify-content: center;
+        min-width: fit-content;
+      }
+    }
+  }
+
+  main{
+
+    .first_section{
+      .traditional_people{
+        .traditional_box{
+          flex-wrap: wrap;
+          .traditional_card_container{
+            min-width: 100%;
+            
+            .traditional_card{
+              margin-top: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .second_section{
+      .box_container{
+        flex-wrap: wrap;
+        text-align: center;
+
+        .card_img, .card_info{
+          min-width: 100%;
+        }
+      }
+    }
+
+    .third_section{
+
+      padding: 0 50px;
+      .user_experience{
+        width: 100%;
+      }
+    }
+
+  }
+
+}
+
+
+@media all and (max-width: 550px) {
+
+  nav {
+    min-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .navbar_right {
+      display: none;
+    }
+
+    .navbar_right_hamburger {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: $font_color;
+      font-size: 25px;
+    }
+  }
+
+  header {
+    flex-wrap: wrap;
+
+    .header_info,
+    .header_img {
+      min-width: 100%;
+
+      p,
+      h1,
+      .header_signup {
+        text-align: center;
+        justify-content: center;
+        min-width: fit-content;
+      }
+    }
+  }
+
+  main {
+
+    .first_section {
+      .traditional_people {
+        .traditional_box {
+          flex-wrap: wrap;
+
+          .traditional_card_container {
+            min-width: 100%;
+
+            .traditional_card {
+              margin-top: 15px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    .second_section {
+      .box_container {
+        flex-wrap: wrap;
+        text-align: center;
+
+        .card_img,
+        .card_info {
+          min-width: 100%;
+        }
+      }
+    }
+
+    .third_section {
+
+      padding: 0 50px;
+
+      .user_experience {
+        width: 100%;
+
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+
   }
 
 }

@@ -1,6 +1,7 @@
 
 header{
   width: 85vw;
+  height: fit-content;
   margin: 50px auto;
 
   .header_info {
@@ -48,7 +49,7 @@ header{
     width: 50%;
 
     img{
-      height: 350px;
+      width: 100%;
       float: right;
     }
   }

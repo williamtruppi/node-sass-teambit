@@ -14,7 +14,7 @@ main{
       }
   
       .traditional_box{
-        width: 100;
+        width: 100%;
         margin-top: 40px;
   
         .traditional_card_container{
@@ -109,6 +109,7 @@ main{
       border: 2px solid $signup_color;
       padding: 20px;
       border-radius: 15px;
+      background-color: white;
 
       .user_img_box{
         align-items: center;
