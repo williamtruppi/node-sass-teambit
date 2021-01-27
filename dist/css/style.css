@@ -83,7 +83,7 @@ header .header_info .header_signup .btn_signup {
   width: fit-content;
   padding: 5px 7px;
   border-radius: 5px;
-  background-color: #2C4792;
+  background-color: #922C2C;
   cursor: pointer;
   align-items: center;
   color: white;
@@ -104,7 +104,7 @@ header .header_img img {
 }
 
 main .first_section {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   padding: 35px 0;
 }
 main .first_section .traditional_people {
@@ -180,7 +180,7 @@ main .third_section {
   flex-direction: column;
   align-items: center;
   padding: 60px 0;
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
 }
 main .third_section h1 {
   font-size: 3em;
@@ -190,7 +190,7 @@ main .third_section h1 {
 main .third_section .user_experience {
   margin-top: 2em;
   width: 40%;
-  border: 2px solid #2C4792;
+  border: 2px solid #922C2C;
   padding: 20px;
   border-radius: 15px;
   background-color: white;
@@ -203,7 +203,7 @@ main .third_section .user_experience .user_img_box img {
   margin: 15px 15px 0 0;
 }
 main .third_section .user_experience .user_img_box span:nth-child(1) {
-  color: #2C4792;
+  color: #922C2C;
 }
 main .third_section .user_signup {
   margin-top: 40px;
@@ -215,7 +215,7 @@ main .third_section .user_signup .btn_signup {
   width: fit-content;
   padding: 5px 7px;
   border-radius: 5px;
-  background-color: #2C4792;
+  background-color: #922C2C;
   cursor: pointer;
   align-items: center;
   color: white;
@@ -317,7 +317,7 @@ footer .footer_list ul {
     margin-left: 20px;
   }
   footer .footer_info strong span {
-    color: #2C4792;
+    color: #922C2C;
   }
   footer .footer_list {
     min-width: calc(100% / 5);
@@ -404,7 +404,7 @@ main .second_section .box_container .card_info {
     margin-left: 20px;
   }
   footer .footer_info strong span {
-    color: #2C4792;
+    color: #922C2C;
   }
   footer .footer_list {
     min-width: calc(100% / 5);
