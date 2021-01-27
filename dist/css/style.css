@@ -225,6 +225,27 @@ main .third_section .user_signup span {
   margin: 0 10px;
 }
 
+footer {
+  padding: 50px 0;
+}
+footer .footer_info, footer .footer_list {
+  width: calc(100% / 6);
+}
+footer .footer_info ul, footer .footer_list ul {
+  list-style: none;
+}
+footer .footer_info img, footer .footer_list img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer .footer_list {
+  margin-left: 40px;
+}
+footer .footer_list ul {
+  margin-top: 15px;
+}
+
 @media all and (min-width: 551px) and (max-width: 998px) {
   nav {
     min-width: 100%;
@@ -278,6 +299,27 @@ main .third_section .user_signup span {
   }
   main .third_section .user_experience {
     width: 100%;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .footer_info {
+    min-width: 100%;
+  }
+  footer .footer_info img {
+    height: 50px;
+  }
+  footer .footer_info strong {
+    margin-left: 20px;
+  }
+  footer .footer_info strong span {
+    color: #2C4792;
+  }
+  footer .footer_list {
+    min-width: calc(100% / 5);
+    margin-top: 40px;
+    margin-left: 0;
   }
 }
 @media all and (max-width: 550px) {
@@ -344,5 +386,26 @@ main .second_section .box_container .card_info {
   }
   main .third_section .user_experience p {
     font-size: 12px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .footer_info {
+    min-width: 100%;
+  }
+  footer .footer_info img {
+    height: 50px;
+  }
+  footer .footer_info strong {
+    margin-left: 20px;
+  }
+  footer .footer_info strong span {
+    color: #2C4792;
+  }
+  footer .footer_list {
+    min-width: calc(100% / 5);
+    margin-top: 40px;
+    margin-left: 0;
   }
 }

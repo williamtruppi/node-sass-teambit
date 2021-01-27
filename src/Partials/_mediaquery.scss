@@ -71,6 +71,32 @@
 
   }
 
+  footer {
+    flex-wrap: wrap;
+
+    .footer_info{
+      min-width: 100%;
+
+      img{
+        height: 50px;
+      }
+
+      strong{
+        margin-left: 20px;
+
+        span{
+          color: $signup_color
+        }
+      }
+    }
+
+    .footer_list {
+      min-width: calc(100% / 5);
+      margin-top: 40px;
+      margin-left: 0;
+    }
+  }
+
 }
 
 
@@ -156,6 +182,32 @@
       }
     }
 
+  }
+
+  footer {
+    flex-wrap: wrap;
+
+    .footer_info {
+      min-width: 100%;
+
+      img {
+        height: 50px;
+      }
+
+      strong {
+        margin-left: 20px;
+
+        span {
+          color: $signup_color
+        }
+      }
+    }
+
+    .footer_list {
+      min-width: calc(100% / 5);
+      margin-top: 40px;
+      margin-left: 0;
+    }
   }
 
 }

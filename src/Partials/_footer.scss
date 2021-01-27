@@ -1,0 +1,23 @@
+footer{
+  padding: 50px 0;
+
+  .footer_info, .footer_list{
+    width: calc(100% / 6);
+    
+    ul{
+      list-style: none;
+    }
+
+    img{
+      height: fit-content;
+    }
+  }
+
+  .footer_list{
+    margin-left: 40px;
+
+    ul{
+      margin-top: 15px;
+    }
+  }
+}
